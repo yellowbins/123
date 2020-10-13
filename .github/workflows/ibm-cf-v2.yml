@@ -15,8 +15,7 @@ env:
 
 on:
   workflow_dispatch:
-  push:
-    branches: [ master ]
+  repository_dispatch:
   schedule:
     - cron: 0 21 * * *
 
